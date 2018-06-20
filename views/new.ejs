@@ -1,0 +1,13 @@
+<%- include('partials/header.ejs') %>
+
+    <div class="container"></div>
+    <h3>Please feel free to enter your own recipe</h3>
+    <form action="/" method="post">
+        <input type="text" id="title" placeholder="Title" name="title" required>
+        <input type="text" id="description" placeholder="description" name="description" required>
+        <input type="text" id="ingredients" placeholder="ingredients" name="ingredients" required>
+        <input type="text" id="instructions" placeholder="instructions" name="instructions" required>
+        <input type="submit" id="submit">
+    </form>
+    </div>
+    <%- include('partials/footer.ejs') %>

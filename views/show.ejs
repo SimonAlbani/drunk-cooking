@@ -1,0 +1,29 @@
+<%- include('partials/header.ejs') %>
+    <h1>
+        <%= recipe.title %>
+    </h1>
+    <p>
+        <span class="bold"> Description: </span>
+        <%= recipe.description %>
+    </p>
+    <p>
+        <span class="bold">Ingredients: </span>
+
+
+
+
+        <%= recipe.ingredients %>
+    </p>
+
+
+
+
+    <p>
+        <span class="bold">Instructions:</span>
+
+
+        <%= recipe.instructions %>
+    </p>
+
+    <a class="edit" href="/edit/<%= recipe.id %>"> Edit </a>
+    <%- include('partials/footer.ejs') %>

@@ -1,0 +1,28 @@
+<%- include('partials/header.ejs') %>
+
+    <form class="form-edit" action="/<%= recipe.id %>?_method=put" method="post">
+        <p>
+            <label>Food Name:</label>
+            <input type="text" value="<%= recipe.title %>" name="title" />
+        </p>
+        <p>
+            <label>Description:</label>
+            <input type="text" value="<%= recipe.description %>" name="description" />
+        </p>
+        <p>
+            <label>Ingredients:</label>
+            <input type="text" value="<%= recipe.ingredients %>" name="ingredients" />
+        </p>
+        <p>
+            <label>Instructions:</label>
+            <input type="text" value="<%= recipe.instructions %>" name="instructions" />
+            <br>
+            <input class="button" type="submit" value="Update" />
+
+    </form>
+
+    <form action="/<%= recipe.id %>?_method=delete" method="post">
+        <input class="button" type="submit" value="Remove">
+    </form>
+
+    <%- include('partials/footer.ejs') %>

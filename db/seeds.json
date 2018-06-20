@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Simon's Famous Mac and Cheese",
+    "description":
+      "This is a nice rich mac and cheese. Serve with a salad for a great meatless dinner. Hope you enjoy it.",
+    "instructions":
+      "Cook, Drain. In saucepan, melt butter. Stir in flour. Add milk slowly. Stir in cheeses, and cook over low heat. Combine. Melt butter. Add breadcrumbs. Spread over the macaroni and cheese. Bake at 350F for 30 minutes. Serve.",
+    "ingredients": "pasta, cheese, milk, butter, bacon, hot-sauce"
+  },
+  {
+    "title": "Mitch's Famous Wings",
+    "description": "Best wings in the country!",
+    "instructions":
+      "batter wings, fry wings, smoke  wings, fry again, add hot sauce",
+    "ingredients": "wings, flour, smoker, eggs, olive oil, hot-sauce"
+  },
+  {
+    "title": "Mitch's Famous Lasagna",
+    "description": "Best Lasagna in the galaxy!",
+    "instructions":
+      "Make a meat sauce and a beschamel. layer pasta, cheese, and sauces and bake at 400F",
+    "ingredients":
+      "lasagna noodles, ground beef, mozzarella, parmesan, flour, milk, butter, tomatoes"
+  },
+  {
+    "title": "Simon's Famous Bison Burger",
+    "description": "Best Burger in the Universe!",
+    "instructions":
+      "Season and cook bison patty. Place on bun. Add cheese, onion straws, and bacon.",
+    "ingredients":
+      "Bison, cheese, onion straws, bacon, salt, pepper, garlic, buns"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "name": "SEEN-lab",
+  "version": "1.0.0",
+  "description": "This is an open-ended, pair lab! You and your team mate should choose from the following domains or come up with your own. If you come up with your own, run it by an instructor first! It must, however, fulfill the following requirements:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/SimonAlbani/SEEN-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "method-override": "^2.3.10",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.10"
+  }
+}

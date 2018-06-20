@@ -1,0 +1,19 @@
+<%- include('partials/header.ejs') %>
+
+    <ul>
+        <% recipes.forEach((recipe) => { %>
+            <li>
+                <a href="/<%= recipe.id %>">
+                    <%= recipe.title %>
+                </a>
+            </li>
+            <% }) %>
+    </ul>
+
+    <h3>
+        <a href="/new"> Please Feel Free to Post Your Own Recipe!</a>
+    </h3>
+
+    <p></p>
+
+    <%- include('partials/footer.ejs') %>
